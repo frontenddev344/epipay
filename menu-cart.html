@@ -1,0 +1,92 @@
+<div class="mx-3 mt-3 px-3 menulist-modal">
+    <div class="d-flex">
+        <div>
+            <a href="#" class="menulist-modal-close close-menu icon icon-xl font-16 color-red-dark mr-n3"><img src="img/modal-close.png"></a>
+        </div>
+        <div class="text-center margin-auto">
+            <h1 class="font-20">Cart</h1>
+        </div>
+        
+    </div>
+
+    <div class="list-group list-custom-large list-menu pt-4">
+        <h1 class="mb-3">Havaiian Burger Set</h1>
+        <div class="row mt-0 mb-3">
+            <div class="col-12 pr-0">
+                <h1 class="line-height-m mb-1 font-20">
+                    Havaiian Burger Set Large
+                    <a href="javascript:void(0)" class="modal-menu-delete">
+                        <img class="float-right m-0" style="width:22px;height:22px;margin-top:4px;" src="img/modal-menu-delete.png">
+                    </a>
+                </h1>
+                <p class="line-height-s mt-0 mb-1 color-gray4 font-16">
+                    Burger Options
+                </p>
+                <p class="line-height-s mt-0 mb-4 color-gray1">
+                    Grilled Onions
+                </p>
+                
+                
+                <div class="d-flex">
+                    <div class="align-self-center">
+                        <p class="font-20 mb-1 color-black font-weight-500 line-height-s">
+                            $20.02
+
+                        </p>
+                    </div>
+                    <div class="align-self-center ml-auto">
+                        <div class="stepper rounded-l float-left">
+                            <a href="order.html" class="stepper-sub m-0"><img class="m-0 ml-1 stepper-img" src="img/menu-modal-minus.png"></a>
+                            <input type="number" min="1" max="99" value="1">
+                            <a href="order.html" class="stepper-add m-0"><img class="m-0 mr-1 stepper-img" src="img/menu-modal-plus.png"></a>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+<!--        <div class="divider mt-3 mb-3"></div>-->
+
+    </div>
+    
+    
+    
+    <div class="text-center margin-auto font-20 font-weight-500 mx-n4" style="border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;">
+        <p class="my-3 py-2 color-highlight">+ Add More</p>
+    </div>
+    <div class="divider py-1 mx-n4"></div>
+    
+    <div class="px-3" style="position: absolute;left: 0;bottom: 20px;width: 100%;">
+        <div class="pt-2 clearfix">
+            <h1 class="mb-3 ml-2 float-left">Total</h1>
+            <h1 class="mb-3 mr-2 float-right color-highlight">$46.24</h1>
+
+        </div> 
+        <a href="#" class="btn btn-s btn-full mb-3 rounded-s font-500 font-24 bg-highlight" style="padding:10px 18px !important">Order</a>   
+    </div>
+    
+    <script>
+
+        //Stepper Add
+        $('.stepper-add').on('click',function(){
+            var num = +$(this).parent().find('input').val() + 1;
+            $(this).parent().find('input').val(num);
+            return false;
+        });
+        $('.stepper-sub').on('click',function(){
+            var num = $(this).parent().find('input').val() - 1;
+            if(num >= 0){$(this).parent().find('input').val(num);}
+            return false;
+        });
+        
+        
+        $('.modal-menu-delete').click(function(){
+            $(this).parent().parent().remove()
+        })
+        
+    
+    </script>
+    
+    
+    
+    
+</div>

@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Apptastic</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+<link rel="stylesheet" href="styles/highlights/highlight-greencustom.css">
+<link rel="stylesheet" href="styles/main.css">
+
+</head>
+   
+    
+<body class="theme-light" data-highlight="greencustom">
+
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-left header-scroll-effect bg-highlight shadow-0 menulist-header clearfix">
+        <div class="header-small">
+            <a href="index.html" class="header-title font-20"><img src="img/header-back-black.png"></a>
+
+            <a href="#" class="header-icon header-icon-1 center-menu-title color-black font-20 font-500 header-title-txt">
+                Payment
+            </a>
+        </div>
+        <div class="header-large pl-3 pt-4" style="background:#fff;">
+            <a href="index.html" class="header-logo-title"><h1><img src="img/header-back-black.png"></h1></a>
+            <a href="#" class="header-icon header-icon-1 center-menu-title shadow-0 color-black font-20 font-500 header-title-txt" style="background:none">
+                Payment
+            </a>
+        </div>  
+    </div>    
+    
+    
+    
+    <div class="page-content header-clear-medium">
+        
+        
+        <div class="content mt-0 mx-0 pt-4 pb-3 text-center" style="background:#404040">
+            <h1 class="color-white font-300 pb-1">Order total is <span class="color-highlight font-500">$7.01</span> USD</h1>
+        </div>
+        
+        
+      
+        <div class="content mx-4 mt-4">
+            <h1 class="font-20 mb-2">
+                <img class="order-title-icon mr-1" src="img/order-title-icon4.png">Pay with Saved Cards
+            </h1>
+            
+            <div class="order-select-type1 mt-3">
+                <div class="mb-0 order-check position-relative" style="background:#f8f9fa;border-radius:10px;border: 1px solid #a9a9a9;padding:18px 16px;">
+                    
+                    <img class="creditcard" src="img/mastercard.png">
+                    <div class="display-inline-block vertical-middle ml-2 mt-1">
+                        <h3 class="font-18 color-gray2 mb-0">MASTER CARD</h3>
+                        <p class="font-14 color-gray1">************0867</p>
+                    </div>
+                    <a href="#" class="credit-close mr-n3 position-absolute">
+                        <img src="img/credit-close.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="content mx-4 mt-5 mb-4">
+            <h1 class="font-20 mb-2">
+                <img class="order-title-icon mr-1" src="img/order-title-icon5.png">Pay with new Cards
+            </h1>
+             
+            <div class="order-select-type1 mt-1">
+                <h1 class="font-18 mb-0 color-gray2">
+                    Card Number
+                </h1>
+                <div class="mb-0 order-check">
+                    <input class="font-18" type="number" placeholder="">
+                </div>
+            </div>
+            
+            <div class="order-select-type1 mt-3">
+                <h1 class="font-18 mb-0 color-gray2">
+                    Expiry Date
+                </h1>
+                <div class="mb-0 order-check">
+                    <input class="font-18 display-inline-block" style="width:48%;" type="number" placeholder="MM">
+                    <input class="font-18 display-inline-block" style="width:48%;margin-left:2%" type="number" placeholder="YY">
+                </div>
+            </div>
+            
+            <div class="order-select-type1 mt-3">
+                <h1 class="font-18 mb-0 color-gray2">
+                    CVC / CVV
+                </h1>
+                <div class="mb-0 order-check">
+                    <input class="font-18" type="number" placeholder="">
+                </div>
+            </div>
+  
+        </div>
+        
+        <div class="divider py-1 my-3"></div>
+        
+        
+        
+        <div class="accordion px-2 pb-5" id="accordion-1" style="padding-bottom:120px !important;">
+            <div class="mb-0">
+                <button class="btn accordion-btn border-0 color-theme ml-1 pr-4" data-toggle="collapse" data-target="#collapse1" aria-expanded="true">
+                    <img class="order-title-icon mr-1 mt-n2" src="img/order-title-icon6.png"><span class="font-20 color-black">Billing Address</span>
+                    <i class="fa fa-angle-down font-20 color-black opacity-100 accordion-icon"></i>
+                </button>
+                <div id="collapse1" class="collapse show px-3 mx-1" data-parent="#accordion-1">
+                    <div class="order-select-type1 mt-1">
+                        <h1 class="font-18 mb-0 color-gray2">
+                            Street Address
+                        </h1>
+                        <div class="mb-0 order-check">
+                            <input class="font-18 mb-2" type="text" placeholder="Street address, P.O. box">
+                            <input class="font-18 mb-2" type="text" placeholder="Apartment, suite, unit, floo">
+                            <input class="font-18 mb-2" type="text" placeholder="City">
+                            <select name="state" id="state">
+                                <option value="">Select State</option>    
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                                <option value="USA">USA</option>
+                                <option value="korea">Korea</option>
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="order-select-type1 mt-3">
+                        <h1 class="font-18 mb-0 color-gray2">
+                            Zip Code
+                        </h1>
+                        <div class="mb-0 order-check">
+                            <input class="font-18" type="number" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="order-select-type1 mt-3">
+                        <h1 class="font-18 mb-0 color-gray2">
+                            Country
+                        </h1>
+                        <div class="mb-0 order-check">
+                            <input class="font-18" type="number" placeholder="United States" disabled="disabled">
+                        </div>
+                    </div>
+
+                </div>
+            </div>    
+        </div>
+        
+        
+        <!-- Basket Button-->
+
+        <div class="menulist-button2 payment-button content m-0 position-fixed">
+            <a href="#" class="btn btn-order btn-full font-24 font-500 rounded-0 float-left">Clear</a>
+            <a href="#" data-menu="menu-demo-over-bottom" class="btn btn-basket btn-full bg-highlight  font-24 font-500 rounded-0 float-left">Submit</a>
+            
+        </div>
+        
+
+    </div>
+    <!-- Page content ends here-->
+    
+    
+
+
+
+</div>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
