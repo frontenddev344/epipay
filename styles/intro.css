@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
 }
 
 .container {
@@ -138,14 +139,12 @@ a.green-btn:hover {
     margin: 0 10px 0;
 }
 
-    .epiyayfood-picture {
-        display: flex;
-        justify-content: end;
-        position: absolute;
-        right: 0;
-        width: 50%;
-        height: 100vh;
-    }
+.epiyayfood-picture {
+    display: flex;
+    justify-content: end;
+
+    height: 100vh;
+}
 
 .zipcode {
     display: flex;
@@ -173,8 +172,7 @@ a.green-btn:hover {
     align-items: start;
     justify-content: center;
     position: relative;
-    max-width: 620px;
-    margin: 0 auto;
+    background: #8ab800;
 }
 
 section.epiyayfood {
@@ -184,6 +182,7 @@ section.epiyayfood {
 .epiyayfood-picture img {
     width: 100%;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .epiyayfood-content p {
@@ -233,9 +232,7 @@ section.epiyayfood {
 }
 
 @media only screen and (max-width: 1024px) {
-    .googlleplay-btn {
-        left: 80px;
-    }
+
 
     .epiyayfood-content h1 {
         font-size: 19px;
@@ -396,15 +393,19 @@ section.epiyayfood {
 
 @media only screen and (max-width: 767px) {
     .googlleplay-btn {
-        left: 40px;
         position: static;
         margin: 20px 0 0;
         padding-bottom: 20px;
     }
 
+    .container-fluid.ps-5 {
+        padding: 0 !important;
+    }
+
     .epiyayfood-main {
         align-items: self-start;
         padding: 20px;
+        height: auto;
     }
 }
 
