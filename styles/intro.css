@@ -409,4 +409,14 @@ section.epiyayfood {
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .epiyayfood-picture {
+        height: 350px;
+    }
+
+    .epiyayfood-picture img {
+        height: 350px;
+    }
+}
+
 /*media query-end*/
