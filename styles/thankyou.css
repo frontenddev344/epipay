@@ -1,0 +1,142 @@
+section.thankyoumain {
+    position: relative;
+}
+
+.thankyou-content h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.thankyou-content p {
+    color: #787878;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.thankyou-content span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.thankyou-order {
+    background: white;
+    display: flex;
+    border-radius: 5px;
+    gap: 10px;
+    align-items: center;
+    height: 89px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin: 32px 0 0 0;
+}
+
+.pickup-content h2 {
+    color: #8AB800;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.pickup-content span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pickup-main {
+    background: white;
+    border-radius: 5px;
+    align-items: baseline;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 16px;
+}
+
+.pickup-order {
+    display: flex;
+    gap: 10px;
+}
+
+.pickup-address {
+    margin-top: 23px;
+}
+
+.pickup-address h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pickup-address p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.pickuppic-flex {
+    display: flex;
+    gap: 10px;
+    height: 24px;
+}
+
+.pickup-btn a {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    background: #8AB800;
+    display: block;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 34px;
+}
+section.thankyoumain:before {
+    content: "";
+    position: absolute;
+    top: auto;
+    left: auto;
+    height: 317px;
+    width: 100%;
+    background: #8ab800;
+    z-index: -1;
+}
+section.thankyoumain::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: auto;
+    height: 317px;
+    width: 100%;
+    background: #F4F4F4;
+    z-index: -1;
+}
